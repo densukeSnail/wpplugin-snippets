@@ -30,14 +30,14 @@ if( !class_exists('prefix_my_class') ){
         // variable for translation data (via *.mo file)
         private $lang;
         
-        private const SETTINGSTYLE_SLUG = 'prefix_my_setting_style';
-        private const SETTINGSTYLE_PATH = 'styles/prefix_my_setting_style.css';
-        private const MENU_SLUG = 'prefix_my_menu';
+        const SETTINGSTYLE_SLUG = 'prefix_my_setting_style';
+        const SETTINGSTYLE_PATH = 'styles/prefix_my_setting_style.css';
+        const MENU_SLUG = 'prefix_my_menu';
         
         // 翻訳ファイル名は「LANG_SLUG-国名.mo」となるように注意する( 例：prefix_my_lang-ja.mo )
         // Make sure the translation file name is "LANG_SLUG-country code.mo"( 例：prefix_my_lang-en.mo )
-        private const LANG_SLUG = 'prefix_my_lang';
-        private const LANG_PATH = '/languages';
+        const LANG_SLUG = 'prefix_my_lang';
+        const LANG_PATH = '/languages';
 
         private static $option_grp = 'prefix_my_option_grp';
         private static $option_param = [
